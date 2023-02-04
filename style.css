@@ -200,7 +200,8 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/tech.jpg);
+	height: 600px;
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -261,7 +262,18 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
-
+#myimg img{
+	float: left;
+	margin-left:260px ;
+	border:white ;
+	border-color:white ;
+	border-radius: 360px;
+	height: 250px;
+	width: 250px;
+}
+.icon{
+	border-radius: 50px;
+}
 /* End Hero Section */
 
 /* Services Section */
